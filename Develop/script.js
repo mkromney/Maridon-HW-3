@@ -56,3 +56,5 @@ function writePassword() {
 // Adds an event listener to generate button - "this is a way that you can wait for user interaction like a click or keypress and then run some code whenever that action happens"- definition from https://blog.webdevsimplified.com/2022-01/event-listeners/#:~:text=An%20event%20listener%20in%20JavaScript,click%20events%20on%20a%20button. //
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
+
+// The website works as intended, not all of the code is clear to me
