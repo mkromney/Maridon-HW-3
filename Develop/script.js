@@ -25,7 +25,7 @@ function generatePassword() {
 
   // This for loop considers the user's input selections and uses if statements to decide whether or not to use a character type in the password. It considers the password length the user stored under the passwordLength var //
   for (var i = 0; i < passwordLength; i++) {
-    // Randomly choose a character type based on the selected criteria
+    // Randomly choose a character type based on the relevant selected criteria //
     var charType = ""; 
     if (includeUppercase) charType += uppercaseChars;
     if (includeLowercase) charType += lowercaseChars;
